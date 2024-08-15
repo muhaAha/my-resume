@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="Keywords" content="resume, HTML, CSS, Muhamed Ajdinoski, engineer, web developer, 3D modeling designer" />
+        <meta name="Description" content="Muhamed`s resume. All his education and work experience." />
+            <!--Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+            <!-- google font icons-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+            <!-- google font family -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois&family=Quando&display=swap" rel="stylesheet" />
+            <!-- default style -->
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+
+    <body class="page">
+            <!-- header -->
+        <header id="menu-bar" class="container-fluid sticky-top">
+            <nav class="container d-flex flex-wrap justify-content-center py-3">
+                <a href="./index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                    <img src="./assets/imgs/resume-sticker.png" alt="resume sticker" width="40" height="32" />
+                    <span class="fs-4">My Resume</span>
+                </a>
+                <ul id="nav-list" class="nav nav-pills">
+                    <li class="nav-item"><a href="#" class="btn btn-outline-primary" role="button">Home</a></li>
+                    <li class="nav-item"><a href="#" class="btn btn-outline-primary" role="button">Education</a></li>
+                    <li class="nav-item"><a href="#" class="btn btn-outline-primary" role="button">Experience</a></li>
+                    <li class="nav-item"><a href="#" class="btn btn-outline-primary" role="button">Projects</a></li>
+                    <li class="nav-item"><a href="#" class="btn btn-outline-primary" role="button">About</a></li>
+                </ul>
+            </nav>
+        </header>
+            <!-- Hero -->
+        <div id="hero-profile" class="container-fluid grad1 material-card" align="Center">  <!-- " mt-2" -->
+            <div id="hero-profile-row" class="row container-xl no-gutters justify-content-center align-items-center">
+                <div id="hero-profile-title" class="col-7  text-center justify-content-center align-items-center">
+                    <h1 class="hero-h1 display-5 fw-bold text-body-emphasis text-center justify-content-center align-items-center mochiy-pop-p-one-regular">
+                        <span id="hero-name">Muhamed</span> <span id="hero-message">in person</span>
+                    </h1>
+                    <div class="col mx-auto">
+                        <p class="lead quando-regular">Engineer | Web developer | Designer</p>
+                    </div>
+                </div>
+                <div id="hero-profile-logo" class="col-5  text-center justify-content-center align-items-center">
+                    <img id="hero-profile-picture" class="d-block mx-auto" src="./assets/imgs/profile-picture.jpg" alt="resume profile picture" height="500px" />
+                </div>
+            </div>
+        </div>
+            <!-- Hero - alternative - hidden -->
+        <div id="hero-profile-alternative" class="container-fluid grad1 material-card" align="Center">    <!-- hidden -->
+            <div id="hero-profile-alternative-row" class="row align-items-center justify-content-center"> <!-- previesly here was grand1 shadow class!!!-->
+                <div class="text-center">
+                    <img id="hero-profile-picture-alternative" class="d-block mx-auto mb-4 mt-3" src="./assets/imgs/profile-picture.jpg" 
+                    alt="resume profile picture alternative" height="500px" />
+                    <h1 class="hero-h1 display-5 fw-bold text-body-emphasis mochiy-pop-p-one-regular">
+                        <span id="hero-name">Muhamed</span> <span id="hero-message">in person</span>
+                    </h1>
+                    <div class="col-lg-6">
+                        <p class="lead mb-4 quando-regular">Engineer | Web developer | Designer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- main page -->
+        <main class="container main-content mainContainer mt-3 mb-3 pt-3 pb-3">
+            <!-- Summary card - intro -->
+            <div class="card mb-3 summary-card">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img class="img-fluid rounded-start lazypreload blur-up " src="/Capstone Project 2/assets/imgs/card-image/summary.jpg" alt="summary card image"  
+                        style="max-height: 150px;" />
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title"> About Me </h5>
+                            <p>
+                                <details class="card-text">
+                                    <summary> Hi, I am Muhamed Ajdinoski from Struga - Republic of North Macedonia. I live in a beautiful village called <em>Podgorci</em>.  </summary>
+                                    <p>
+                                        This is my resume website, where I will introduce myself to You. Here You can find my education, skills, achivements and interests. 
+                                        I am graduate mechatronical engineer, intern at <em>Dobi-Digital</em> as professional web developer and 3D Graphics and CAD designer. 
+                                        Also, I am married, and I have three beautiful children. In my free time, I play football or read a good book. 
+                                        In the summer, we all swim in the Ohrid`s Lake, not far from our village. <br>
+                                        In this website, You can follow all my activities, projects I am working on, news and more. <br>
+                                        Have a nice surfing. 
+                                    </p>
+                                  </details>
+                                
+                                </p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Resume cars with My flip card -->
+            <div id="resume-cards" class="row">
+                    <!-- Summary flip card -->
+                <div class="flip-card col-3 col-sm-6">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front card material-card">
+                            <img class="round-img card-img blur-up lazypreload lazyloaded" 
+                            src="/Capstone Project 2/assets/imgs/card-image/skills.jpg" alt="summary image">
+                            <div class="card-body pt-4 px-4">
+                                <h5> Skills </h5>
+                                <p>Creativity, team work and problem solving Engineer, Designer and Developer.</p>
+                            </div>
+                        </div>
+                        <div class="flip-card-back card-body card material-card pt-4 px-4">
+                            <h4>Skills</h4>
+                            <blockquote>
+                                “Creativity and innovativeness are common to me. 
+                                My specialties are in the service of others. A good team means a job well done.
+                                In my fields as an engineer, 3D designer and professional web developer; what I do best is solving the problems that arise.
+                                My best skill is my constant studying!”
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                    <!-- Achievement flip card -->
+                <div class="flip-card col-3 col-sm-6">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front card material-card">
+                            <img class="round-img card-img blur-up lazypreload lazyloaded" 
+                            src="/Capstone Project 2/assets/imgs/card-image/education-stack-of-books-with-graduation-cap.jpg" alt="summary image">
+                            <div class="card-body pt-4 px-4">
+                                <h5> Education </h5>
+                                <p>My devotion to science and technology guides my education.</p>
+                            </div>
+                        </div>
+                        <div class="flip-card-back card-body card material-card pt-4 px-4">
+                            <h4>Education</h4>
+                            <blockquote>
+                                “Bachelor degree in mechatronics engineering at <abbr title="University of Tetova">UNITE</abbr>. 
+                                <em>The Complete 2024 Web Development Bootcamp</em> at Udemy. 
+                                3D designer and CAD modeler with CNC implementation. 
+                                A lots of online certificates in different programming languages.”
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                    <!-- Experience flip card -->
+                <div class="flip-card col-3 col-sm-6">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front card material-card">
+                            <img class="round-img card-img blur-up lazypreload lazyloaded" src="/Capstone Project 2/assets/imgs/card-image/work-desk-web.jpg" 
+                            alt="summary image">
+                            <div class="card-body pt-4 px-4">
+                                <h5> Achievements </h5>
+                                <p>Never stop obtaining big goals. Intern at <em>Dobi-Digital</em>.</p>
+                            </div>
+                        </div>
+                        <div class="flip-card-back card-body card material-card pt-4 px-4">
+                            <h4>Achievements</h4>
+                            <blockquote>
+                                “Cofounder of <em>Safe-Net</em> Training Center. 
+                                3D CAD Designer of <em>X-Motor</em> inovation, manufacuted on CNC machine.
+                                Hardware maintaner for <em>SAAF Computers</em>.
+                                Administrative Officer at <em>Ministry of Internal Affairs</em> in North Macedonia.
+                                At present intern at <em>Dobi-Digital</em>.”
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                    <!-- Hobbi flip card -->
+                <div class="flip-card col-3 col-sm-6">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front card material-card">
+                            <img class="round-img card-img blur-up lazypreload lazyloaded" src="/Capstone Project 2/assets/imgs/card-image/hobbies.jpg" 
+                            alt="summary image">
+                            <div class="card-body pt-4 px-4">
+                                <h5> Interests </h5>
+                                <p> Books, sport, technology and best way to stay healthy - <em>jogging</em>.</p>
+                            </div>
+                        </div>
+                        <div class="flip-card-back card-body card material-card pt-4 px-4">
+                            <h4>Interests</h4>
+                            <blockquote>
+                                “Reading a good book to me means time well spent. 
+                                Usually I play football with my frends and collegues. Also we have a drink at cafeteria. 
+                                <em>Jogging</em> is my favorit thing to do. 
+                                I am an environmentalist and an activist in the field of education and culture, as the secretary of the association <em>Ambija</em>.”
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5">
+                <p></p>
+            </div>
+                <!-- contact me sectioin -->
+            <div class="container container-contact material-card mt-3">
+                <h5 class="mb-3">Contact Me</h5>
+                <form action="#"> <!-- set backend web site here to send informations to server... -->
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                      <option value="australia">Australia</option>
+                      <option value="canada">Canada</option>
+                      <option value="usa">USA</option>
+                      <option value="north macedonia">North Macedonia</option>
+                    </select>
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    <input type="submit" value="Submit">
+                  </form>
+                  <div>
+                    <p></p>
+                  </div>
+                  <div>
+                    <p>Or send me email: <br>
+                        <a href="mailto:muhamedsliki@gmail.com" class="btn btn-success btn-lg" role="button" aria-disabled="true">Send email</a>
+                     </p>
+                  </div>
+            </div>
+        </main>
+            <!-- footer -->
+        <div class="container-fluid div-footer mt-5 grad1">
+            <footer class="container row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 mt-5">
+              <div class="col mb-3">
+                <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+                  <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                </a>
+                <p class="text-body-secondary">© 2024 <br>Powered by <em>Safe-net</em> </p>
+              </div>
+              <div class="col mb-3">
+              </div>
+              <div class="col mb-3 footer-section">
+                <h5> Projects </h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="https://muhaaha.github.io/capstone-project-1/public/hobbies.html" target="_blank" 
+                    class="nav-link p-0 text-body-secondary">MyResume website HTML only</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">MyResume website with CSS</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                </ul>
+              </div>
+              <div class="col mb-3 footer-section">
+                <h5> Activities </h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Intern at Dobi-Digital</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">ZOKA "Ambicija"</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                </ul>
+              </div>
+              <div class="col mb-3 footer-section">
+                <h5> News </h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">MyResume website with CSS</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                </ul>
+              </div>
+            </footer>
+        </div>
+    </body>
+</html>
